@@ -1,6 +1,10 @@
 # Trafficsign_Detection_Recognition_MATLAB_RandomForest
 Detect traffic sign and recognize them using Image Processing algorithms and Machine Learning(Random Forest)
 
+This project composes of two major phases:
+1. Detection (using Image Processing, no machine learning involved)
+2. Recognition (using machine learning)
+
 To tun the code:
 1. Run extract_hog_features file
 2. make necessary changes such as path directory, cell size and image size
