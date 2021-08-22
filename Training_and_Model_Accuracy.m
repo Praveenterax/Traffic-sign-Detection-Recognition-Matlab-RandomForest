@@ -23,6 +23,8 @@ dataTestL = trainingLabels(idx,:);
 model = TreeBagger(700,dataTrain,dataTrainL,'OOBPrediction','On',...
      'Method','classification');
 
+save('classifier.mat', 'model', '-v7.3');
+
  
 %---------------------ACCURACY CALCULATION-----------------------% 
 [prediction, scores]=predict(model,dataTest);
