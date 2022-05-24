@@ -1,5 +1,5 @@
 # Trafficsign_Detection_Recognition_MATLAB_RandomForest
-Detect traffic sign and recognize them using Image Processing algorithms and Machine Learning(Random Forest)
+Detect traffic sign and recognize them using Image Processing algorithms and Machine Learning(Random Forest) with Accuracy of 94%.
 
 Datasets used:
 GTSDB- Testing folder is used for detection, for entire datatset to work add required color masks
