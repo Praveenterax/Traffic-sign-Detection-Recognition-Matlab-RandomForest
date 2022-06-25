@@ -82,13 +82,13 @@ Datasets used:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This entire project can be fragmented in two parts:
+This entire project can be fragmented in to two parts:
 * Detection
 * Recognition
 
 ### Prerequisites
 
-Things required to make the project success?
+Things required to make the project a success:
 * Knowledge of Image Processing
 * Getting around Matlab
 * Machine Learning
@@ -102,11 +102,11 @@ Things required to make the project success?
 * Open [Hog Feature Extraction](/hog_feature_extraction.m) file and make the required changes upon your requirement and run it.
 * **HOG Features** will be saved to avoid extraction for every execution.
 * Open [Training and Model Accuracy](/Training_and_Model_Accuracy.m) file to train the model with extracted features.
-    > Again change the number of decision trees for your desired accuracy!
+    > Change the number of decision trees for your desired accuracy!
     > Also check the ROC-AUC and Precision-Recall curves.
 * The model will be saved locally.
     > Saving time varies from computer to computer
-* Move all masks to the current directory so that, **Main_function_file** will be in the same level as masks.
+* Move all masks to the current directory so that, [Main Funtion](/main_function.m) file will be in the same level as masks.
 * Run the [Main Funtion](/main_function.m) file and you are good to go!!....
 
 
@@ -148,7 +148,6 @@ Project Link: [https://github.com/Praveenterax/Traffic-sign-Detection-Recognitio
 
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
